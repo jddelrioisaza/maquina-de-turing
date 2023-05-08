@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Máquina de Turing"
+msgstr "Turing Machine"
+
+msgid "INTRODUZCA UNA CADENA:"
+msgstr "ENTER A STRING:"
+
+msgid "PROCESAR"
+msgstr "PROCESS"
+
+msgid "RESULTADO"
+msgstr "RESULT"
+
+msgid "VELOCIDAD:"
+msgstr "SPEED:"
+
+msgid "LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "THE STRING WAS ACCEPTED BY THE TURING MACHINE."
+
+msgid "LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "THE STRING WAS NOT ACCEPTED BY THE TURING MACHINE."
+
+msgid "Idiomas"
+msgstr "Languages"
+
+msgid "Inglés"
+msgstr "English"
+
+msgid "Francés"
+msgstr "French"
+
+msgid "Español"
+msgstr "Spanish"

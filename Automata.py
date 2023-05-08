@@ -83,6 +83,7 @@ class Automata():
         plt.pause(1 / velocidad)
 
     def procesar(self, palabra, velocidad):
+
         self.__cinta = list(palabra)
         # self.__graficoCinta = Cinta(self.__cinta, 1)
         self.graficoCinta = CintaPyGame(self.__cinta, 1000, 200)
