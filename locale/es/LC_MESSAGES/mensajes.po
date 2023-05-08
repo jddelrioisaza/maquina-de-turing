@@ -17,11 +17,11 @@ msgstr "RESULTADO"
 msgid "VELOCIDAD:"
 msgstr "VELOCIDAD:"
 
-msgid "La cadena fue aceptada por la Máquina de Turing."
-msgstr "La cadena fue aceptada por la Máquina de Turing."
+msgid "LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."
 
-msgid "La cadena no fue aceptada por la Máquina de Turing."
-msgstr "La cadena no fue aceptada por la Máquina de Turing."
+msgid "LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."
 
 msgid "Idiomas"
 msgstr "Idiomas"

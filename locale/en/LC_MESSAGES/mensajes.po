@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 msgid "Máquina de Turing"
-msgstr "Turing machine"
+msgstr "Turing Machine"
 
 msgid "INTRODUZCA UNA CADENA:"
 msgstr "ENTER A STRING:"
@@ -17,11 +17,11 @@ msgstr "RESULT"
 msgid "VELOCIDAD:"
 msgstr "SPEED:"
 
-msgid "La cadena fue aceptada por la Máquina de Turing."
-msgstr "The string was accepted by the Turing Machine."
+msgid "LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "THE STRING WAS ACCEPTED BY THE TURING MACHINE."
 
-msgid "La cadena no fue aceptada por la Máquina de Turing."
-msgstr "The string was not accepted by the Turing Machine."
+msgid "LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."
+msgstr "THE STRING WAS NOT ACCEPTED BY THE TURING MACHINE."
 
 msgid "Idiomas"
 msgstr "Languages"

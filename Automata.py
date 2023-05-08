@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from Cinta import CintaPygame
-from PySide6.QtWidgets import QApplication
+
+from Cinta import CintaPyGame
 
 class Automata():
 
@@ -85,7 +85,7 @@ class Automata():
     def procesar(self, palabra, velocidad):
         self.__cinta = list(palabra)
         # self.__graficoCinta = Cinta(self.__cinta, 1)
-        self.graficoCinta = CintaPygame(self.__cinta, 1000, 200)
+        self.graficoCinta = CintaPyGame(self.__cinta, 1000, 200)
 
         self.__iniciarGrafo(velocidad)
         self.__actualizarNodos(self.__estado_actual, velocidad)
@@ -97,6 +97,9 @@ class Automata():
 
             if transicion is None:
 
+                self.__posicion_cabezal = 1
+                self.__estado_actual = "p"
+
                 return False
 
             estado_siguiente, caracter_nuevo, direccion = transicion
@@ -104,7 +107,7 @@ class Automata():
             estado_anterior = self.__estado_actual
             self.__estado_actual = estado_siguiente
 
-            # self.__graficoCinta.actualizar_cinta(self.__cinta ,self.__posicion_cabezal)
+            # self.__graficoCinta.actualizar_cinta(self.__cinta, self.__posicion_cabezal)
             self.__actualizarAristas(estado_anterior, self.__estado_actual, velocidad)
             self.__actualizarNodos(self.__estado_actual, velocidad)
 
@@ -117,8 +120,11 @@ class Automata():
 
                 self.__posicion_cabezal -= 1
                 self.graficoCinta.move_pointer_left()
-                
+
             else:
+
+                self.__posicion_cabezal = 1
+                self.__estado_actual = "p"
 
                 return False
 

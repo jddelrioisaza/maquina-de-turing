@@ -1,8 +1,6 @@
 from PySide6.QtWidgets import *
 from PySide6.QtCore import *
 from PySide6.QtGui import *
-from PySide6 import QtCore, QtGui, QtWidgets
-
 
 import os
 import gettext
@@ -134,13 +132,13 @@ class AutomataGUI(QMainWindow):
 
         if self.__automata.procesar("#" + self.__linee_cadena.text() + "#", self.__deslizador.value()):
 
-            self.__procesarVoz(self.traduccion("La cadena fue aceptada por la Máquina de Turing."))
-            QMessageBox.information(self, self.traduccion("RESULTADO"), self.traduccion("La cadena fue aceptada por la Máquina de Turing."))
+            self.__procesarVoz(self.traduccion("LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."))
+            QMessageBox.information(self, self.traduccion("RESULTADO"), self.traduccion("LA CADENA FUE ACEPTADA POR LA MÁQUINA DE TURING."))
 
         else:
 
-            self.__procesarVoz(self.traduccion("La cadena no fue aceptada por la Máquina de Turing."))
-            QMessageBox.warning(self, self.traduccion("RESULTADO"), self.traduccion("La cadena no fue aceptada por la Máquina de Turing."))
+            self.__procesarVoz(self.traduccion("LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."))
+            QMessageBox.warning(self, self.traduccion("RESULTADO"), self.traduccion("LA CADENA NO FUE ACEPTADA POR LA MÁQUINA DE TURING."))
 
     def __cambiarIdioma(self, idioma):
 
