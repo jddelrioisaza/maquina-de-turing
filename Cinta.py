@@ -13,6 +13,7 @@ class CintaPygame:
         self.font = pygame.font.SysFont(None, self.cell_size)
         self.screen = pygame.display.set_mode((width, height))
         self.pointer_position = 0
+        self.cinta_offset = 0
 
         self.draw()
 
@@ -20,7 +21,7 @@ class CintaPygame:
         self.screen.fill((255, 255, 255))
 
         for i in range(len(self.cinta)):
-            x = self.padding + i * self.cell_size
+            x = 450 + self.padding + (i - self.cinta_offset) * self.cell_size
             y = self.height // 2 - self.cell_size // 2
             cell_surface = self.font.render(self.cinta[i], True, (0, 0, 0))
             self.screen.blit(cell_surface, (x, y))
@@ -35,9 +36,13 @@ class CintaPygame:
     def move_pointer_left(self):
         if self.pointer_position > 0:
             self.pointer_position -= 1
+            if self.cinta_offset > 0:
+                self.cinta_offset -= 1
             self.draw()
 
     def move_pointer_right(self):
         if self.pointer_position < len(self.cinta) - 1:
             self.pointer_position += 1
+            if self.cinta_offset < len(self.cinta) - 1:
+                self.cinta_offset += 1
             self.draw()
