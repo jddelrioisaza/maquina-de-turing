@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
-msgid "Autómata"
-msgstr "Autómata"
+msgid "Máquina de Turing"
+msgstr "Máquina de Turing"
 
 msgid "INTRODUZCA UNA CADENA:"
 msgstr "INTRODUZCA UNA CADENA:"
@@ -17,11 +17,11 @@ msgstr "RESULTADO"
 msgid "VELOCIDAD:"
 msgstr "VELOCIDAD:"
 
-msgid "LA CADENA FUE ACEPTADA POR EL AUTÓMATA."
-msgstr "LA CADENA FUE ACEPTADA POR EL AUTÓMATA."
+msgid "La cadena fue aceptada por la Máquina de Turing."
+msgstr "La cadena fue aceptada por la Máquina de Turing."
 
-msgid "LA CADENA NO FUE ACEPTADA POR EL AUTÓMATA."
-msgstr "LA CADENA NO FUE ACEPTADA POR EL AUTÓMATA."
+msgid "La cadena no fue aceptada por la Máquina de Turing."
+msgstr "La cadena no fue aceptada por la Máquina de Turing."
 
 msgid "Idiomas"
 msgstr "Idiomas"
